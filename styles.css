@@ -1,0 +1,24 @@
+body {background-color: #ffffff;
+      padding-left:20vh;
+      }
+
+
+.strawmain {
+   width: 100px;
+	height: 50px;
+	transform: skew(20deg);
+	background: #555;
+      }
+.strawbend {
+   width: 100px;
+	height: 50px;
+	transform: skew(20deg);
+   background: #ffffff;
+}
+
+.strawtop {
+   width:100px;
+   height:none;
+   transform:none;
+   background:none;
+}
