@@ -115,3 +115,24 @@ z-index:60}
 top:1000px;
 left:1890px;
 z-index:61;}
+
+.glasstop {
+   position:absolute;
+	top: 1400px;
+   left:1800px;
+   z-index:70;
+}
+
+.glasssparkle {
+   position:absolute;
+   top:1200px;
+   left:1870px;
+   z-index:75;
+}
+
+.glassleftsparkle {
+   position:absolute;
+   top:900px;
+   left:1140px;
+   z-index:71;
+}
