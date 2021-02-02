@@ -7,14 +7,186 @@
 
   <style>
 
-.strawmain {
-   width: 100px;
+.strawopen{
+  width: 80px;
+  height:60px;
+  transform:skew(30deg);
+  background: repeating-linear-gradient(
+  -46deg,
+  #ffffff, 
+  #ffffff 8px,
+  #00ff73 16px);
+  border-radius:50%;
+}
+
+.shadowopen{
+  width: 80px;
+  height:60px;
+  transform:skew(30deg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.212),
+   rgba(255, 255, 255, 0));
+  border-radius:50%;
+}
+
+.shadowbendleft {
+  width: 50px;
 	height: 600px;
 	transform: skew(20deg);
-	background: #555;
-      }
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.212),
+   rgba(255, 255, 255, 0));
+  border-radius: 15%;
+  transform: rotate(20deg);  
+}
+
+  .strawbend {
+  width: 100px;
+	height: 600px;
+	transform: skew(20deg);
+  background: repeating-linear-gradient(
+  90deg,
+  #ffffff , 
+  #ffffff 10px,
+  #00ff73 20px);
+  border-radius: 15%;
+  transform: rotate(20deg);
+ }
+
+  .shadowmainleft {
+  width: 50px;
+	height: 1490px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.212),
+   rgba(255, 255, 255, 0));
+  border-radius: 15%;
+  transform: rotate(-20deg);
+  transform: skew(20deg);}
+
+  .smr {
+  width: 50px;
+	height: 1490px;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.212),
+   rgba(255, 255, 255, 0));
+  border-radius: 15%;
+  transform: rotate(-20deg);
+  transform: skew(20deg);}
+
+.sbr {
+  width: 50px;
+	height: 600px;
+	transform: skew(20deg);
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.212),
+   rgba(255, 255, 255, 0));
+  border-radius: 15%;
+  transform: rotate(20deg);  }
+
+
+.strawmain {
+  width: 100px;
+	height: 1500px;
+	transform: skew(20deg);
+  background: repeating-linear-gradient(
+  90deg,
+  #ffffff,
+  #ffffff 10px,
+  #00ff73 20px
+);
+  border-radius: 15%;
+    }
+
+    .glassmask {
+      border-radius:1%;
+  
+ }
+  
+ .glassopen {
+   width:1000px;
+   height:50px;
+   border-radius:50%;
+   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.062),
+   rgb(255, 255, 255));
+
+   
+
+ }
+
+
+ .org {
+   border-radius:1%;
+ }
+
+ .org2 {
+   border-radius:1%;
+   width:1000px;
+   height:1000px;
+   background: linear-gradient(to top right, rgb(255, 145, 0),
+   rgba(255, 251, 0, 0.671));
+ }
+
+.org3 {   border-radius:1%;
+   width:1000px;
+   height:1000px;
+   background: linear-gradient(to bottom left, rgb(255, 81, 0),
+   rgb(255, 251, 0));}
+
+
+
+   .sidel { width: 1000px;height:2500px;
+  background-color:rgb(255, 255, 255);
+transform:rotate(-7.5deg);}
+
+
+   .sider {width: 1000px;height:2500px;
+  background-color:rgb(255, 255, 255);
+transform:rotate(7.5deg);}
 
 </style>
+<defs>
 
+<div class="strawmain">
+</div>
+
+<div class="strawbend">
+</div>
+
+<div class="shadowmainleft">
+</div>
+
+<div class="shadowbendleft">
+</div>
+
+<div class="sbr">
+</div>
+
+<div class="smr">
+</div>
+
+<div class="org">
+</div>
+
+<div class="strawopen"></div>
+
+<div class="shadowopen"></div>
+
+</html>
+
+
+<div class="glassmask"></div>
+
+</html>
+<div class="glassopen"></div>
+
+</html>
+
+<div class="org2"></div>
+
+</html>
+
+<div class="org3"></div>
+
+</html>
+
+<div class="sidel"></div>
+
+</html>
+<div class="sider"></div>
 
 </html>
