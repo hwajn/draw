@@ -7,40 +7,60 @@ body {background-color: #ffffff;
          position: absolute;
          top:399px;
          left:1200px;
-         z-index:20;
+         z-index:96;
       }
       .sbr {
          position: absolute;
          top:420px;
          left:1240px;
-         z-index:19;
+         z-index:97;
       }
 
       .strawbend {
    position: absolute;
    top:410px;
    left:1195px;
-   z-index:18;
+   z-index:95;
 }
 
 .shadowmainleft {
    position: absolute;
-   top:970px;
-   left:1365px;
-   z-index:16;
+   top:983px;
+   left:1197px;
+   z-index:62;
 }
 
 .smr {
    position: absolute;
-   top:970px;
-   left:1410px;
-   z-index:15;
+   top:980px;
+   left:1242px;
+   z-index:63;
+}
+.undershadowmainleft {
+   position: absolute;
+   top:1283px;
+   left:1460px;
+   z-index:40;
+}
+
+.undersmr {
+   position: absolute;
+   top:1480px;
+   left:1543px;
+   z-index:41;
 }
 .strawmain {
    position: absolute;
-   top: 960px;
-   left: 1365px;
+   top: 1500px;
+   left: 1500px;
    z-index:14;
+}
+
+.strawmainunder {
+   position: absolute;
+   top: 960px;
+   left: 1190px;
+   z-index:60;
 }
 
 
@@ -48,13 +68,13 @@ body {background-color: #ffffff;
    position:absolute;
    top:405px;
    left:1305px;
-   z-index:51;}
+   z-index:99;}
 
 .shadowopen {
    position:absolute;
    top:405px;
    left:1305px;
-   z-index:52;
+   z-index:100;
 }
 
 .glassmask {
@@ -72,29 +92,31 @@ body {background-color: #ffffff;
    position:absolute;
    top:980px;
    left:1050px;
-   z-index:10;
+   z-index:50;
 
 }
 
 .org {
    position:absolute;
+   
    border-top:1000px solid rgb(255, 217, 0);
-	border-left: 130px solid transparent;
-   border-right: 130px solid transparent;
-	top: 1485px;
-   width: 545px;
+	border-left: 110px solid transparent;
+   border-right: 110px solid transparent;
+   width: 590px;
+	
+   top: 1484px;
    left:1150px;
    z-index:50;
-   opacity:30%;
+   opacity:60%;
 }
 
 
 .org2 {
    position:absolute;
 	top: 1485px;
-   left:1150px;
+   left:1100px;
    z-index:51;
-   opacity:30%;
+   opacity:90%;
 }
 
 .org3 {
@@ -132,7 +154,29 @@ z-index:61;}
 
 .glassleftsparkle {
    position:absolute;
-   top:900px;
-   left:1140px;
+   top:1017px;
+   left:1024px;
    z-index:71;
+   rotate:20deg;
+}
+
+.glassbottomopen {
+   position:absolute;
+   top:2470px;
+   left:1250px;
+   z-index:2;
+}
+
+.glassbottomopen2 {
+   position:absolute;
+   top:2470px;
+   left:1250px;
+   z-index:70;
+}
+
+.orgcircle {
+   position:absolute;
+   top:1460px;
+   left:1149px;
+   z-index:53;
 }
